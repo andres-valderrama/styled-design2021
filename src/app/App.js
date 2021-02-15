@@ -1,5 +1,8 @@
 import { ThemeProvider } from 'styled-components';
 
+import BaseButton from 'design-system/BaseButton';
+import Button from 'design-system/Button';
+
 import { prime } from 'themes';
 
 export default function App() {
@@ -9,7 +12,8 @@ export default function App() {
         <button>button</button>
       </p>
       <p>
-        <button>button</button>
+        <BaseButton>Base button</BaseButton>
+        <Button>Button</Button>
       </p>
     </ThemeProvider>
   );
