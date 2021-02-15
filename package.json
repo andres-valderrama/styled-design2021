@@ -1,11 +1,8 @@
 {
-  "name": "react",
+  "name": "design-system",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
+  "description": "Using styled-components and styled-desing libs",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "react": "17.0.1",
