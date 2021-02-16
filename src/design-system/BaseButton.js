@@ -1,7 +1,5 @@
-import styled, { css } from 'styled-components';
-import { border, space, typography, get } from 'styled-system';
-
-console.log(css``);
+import styled from 'styled-components';
+import { border, space, typography } from 'styled-system';
 
 const BaseButton = styled('button')(
   {
